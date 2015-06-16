@@ -96,7 +96,7 @@ From the introduction to Google's
   [HTTP Archive][http-archive]. These tools allow straightforward comparisons
   with competing websites.
 
-**Every page on FullSIX builds SHOULD have a Page Speed score of at least 90.**
+**Every page on Communisis Digital builds SHOULD have a Page Speed score of at least 90.**
 
 [page-speed-chrome]:                    https://developers.google.com/speed/docs/insights/using_chrome
 [page-speed-firefox]:                   https://developers.google.com/speed/docs/insights/using_firefox

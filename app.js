@@ -22,6 +22,7 @@ app.enable('view cache');
 app.engine('html', require('hogan-express'));
 
 // Setup Express
+app.use(express.basicAuth(‘CSUser’, 'CSP4ss123'));
 app.use(favicon(__dirname +'/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());

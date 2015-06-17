@@ -19,7 +19,7 @@ proceeding with development or testing.
 
 ## Notes on browser support
 
-The modern browser landscape is quite complex and rapidly changing all the time.  In all our projects, FullSIX try to strike the right balance between delivering features efficiently by using modern technologies, whilst trying to ensure the maximum reach for the site through compatibility with legacy browsers, minor and edge case browsers and deprecated platforms.
+The modern browser landscape is quite complex and rapidly changing all the time.  In all our projects, Communisis Digital try to strike the right balance between delivering features efficiently by using modern technologies, whilst trying to ensure the maximum reach for the site through compatibility with legacy browsers, minor and edge case browsers and deprecated platforms.
 
 Website code is interpreted at runtime by browser clients, and the various implementations of rendering engines in different browser clients interpret code differently.  It is the aim of all projects to implement features in such a way to provide a consistent experience across all browsers, however there will always be variation in the way browsers interpret and render code and content, and in the level of support for features of the code.  There is more information on this in our coding standards documentation and we refer to [http://www.caniuse.com/](http://www.caniuse.com/) for a guide to compatibility of specific features within web technology.  
 
@@ -30,7 +30,7 @@ Since there is a limit to what we can naturally support completely without branc
 + Grade B - As much functional support as possible, with some degradation of visual elements and performance.  Grade B browsers are expected to make all functions of the site (i.e. navigation, links, scripts, forms, interactions) available – the user should not be constricted from interacting with the site.  Where a function set is not supported, it should be entirely removed from display in Grade B browsers.  Visually, the site should not appear ‘broken’ but some degradation in the visual fidelity is to be expected (e.g. rounded corners appearing square, minor layout or spacing issues etc.).    Any degradation in visual or functional fidelity should be handled gracefully without impairment to the end users enjoyment of the site.
 
 + Grade C - No direct support for site function provided. We do not QA on Grade C browsers.  Sites may well work to a significant level on these platforms but we do not test on them and we do not, except if explicitly required, guarantee functional or visual compatibility on them.  This normally includes deprecated browser versions, niche/edge cases (i.e. games console browsers) or instances of a web rendering engine in non-browser applications.
-A matrix is given below on current browser grading. If any exceptions are required, please inform FullSIX. If internal IT policies cannot support a grade A browser, please also flag this so we can identify in detail elements of the site build that likely to be degraded.
+A matrix is given below on current browser grading. If any exceptions are required, please inform Communisis Digital. If internal IT policies cannot support a grade A browser, please also flag this so we can identify in detail elements of the site build that likely to be degraded.
 
 The cut-off for Core grade A support is 1% of total usage in any given quarter.
 Any browser falling below this threshold should be considered B grade.
@@ -71,7 +71,7 @@ Alternate platforms not covered above (e.g. games consoles, linux, non-browser b
 
 ### Mobile Browser Grading
 
-FULLSIX only support grade A browsers on mobile. All others will not be included within test scope unless otherwise agreed. This also includes native application in-built webviews (i.e. Twitter clients).
+Communisis Digital only support grade A browsers on mobile. All others will not be included within test scope unless otherwise agreed. This also includes native application in-built webviews (i.e. Twitter clients).
 
 |Platform |  Name | Version |
 |---------|-------|---------|
@@ -83,7 +83,7 @@ FULLSIX only support grade A browsers on mobile. All others will not be included
 
 ### Mobile and tablet test devices
 
-FULLSIX test on the following devices:
+Communisis Digital test on the following devices:
 + iOS7, iOS8 (iPad Mini, iPad air, iPhone 5, iPhone 6) 
 + Android 4.3, 4.4 (Samsung Galaxy S5, Nexus 5, Samsung Galaxy tablet, Nexus 7)
 Additional devices can be targeted on request. Devices outside this configuration may incur extra charges. 

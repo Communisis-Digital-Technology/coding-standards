@@ -29,6 +29,24 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+//Authenticator 
+app.use(function(req, res, next) {
+    var auth;
+
+    if (req.headers.authorization) {
+      auth = new Buffer(req.headers.authorization.substring(6), 'base64').toString().split(':');
+    }
+
+    if (!auth || auth[0] !== 'CDUser' || auth[1] !== 'CDP4ss123') {
+        res.statusCode = 401;
+        res.setHeader('WWW-Authenticate', 'Basic realm="Communisis Digital"');
+        res.end('Unauthorized');
+    } else {
+        next();
+    }
+});
+
 // Setup config
 extend(raneto.config, config);
 

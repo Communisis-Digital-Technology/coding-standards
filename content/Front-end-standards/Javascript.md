@@ -102,7 +102,7 @@ offered by a third party project, and it gives a suitable API for customisation,
 offer significant advantages over a dogmatic [Not Invented Here][nih] approach.
 
 Open source projects can be forked if necessary and if improvements can be made to
-an existing codebase, pull requests to the main repository can ensure that FullSIX take
+an existing codebase, pull requests to the main repository can ensure that Communisis Digital take
 an active part in the open source community, to the advancement of all.
 
 [nih]: https://www.wikiwand.com/en/Not_invented_here

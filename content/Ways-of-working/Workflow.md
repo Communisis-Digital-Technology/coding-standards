@@ -1,9 +1,9 @@
 /* 
-Title: Workflow
+Title: Technical workflow
 Sort: 3
 */
 
-The project workflow determines how code should be produced.
+The project technical workflow determines how code should be produced.
 
 Workflow is context- and project- specific and so MUST be defined in the
 `README.md` included with the project.
